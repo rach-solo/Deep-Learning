@@ -1,0 +1,10 @@
+This assignment evaluated the Closing Price and FNG models by using deep learning and recurrent neural networks to model bitcoin closing prices. 
+
+## Which model has a lower loss?
+* Closing price model
+
+## Which model tracks the actual values better over time?
+* Closing price model 
+
+## Which window size works best for the model?
+* A window size of 1 works best becasue the losses are lower for both models (closing price: 0.005, fng: 0.09). When the window is increased to 10 losses increase for both models (closing price: 0.02, fng: 0.09).
